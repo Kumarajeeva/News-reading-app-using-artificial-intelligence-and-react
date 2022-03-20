@@ -22,7 +22,7 @@ const NewsCard = ({article: {description, publishedAt, source, title, url, urlTo
             </CardContent>
         </CardActionArea>
         <CardActions className={classes.cardActions}>
-            <Button size="small" color="primary ">Learn More</Button>
+            <Button href={url} target="_blank" size="small" color="primary ">Learn More</Button>
             <Typography variant="h5" color="textSecondary">{index+1}</Typography>
         </CardActions>
 
