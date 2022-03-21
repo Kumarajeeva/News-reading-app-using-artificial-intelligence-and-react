@@ -54,7 +54,7 @@ export default makeStyles((theme) => ({
     },
   },
   logoContainer: {
-    padding: '0 5%',
+    padding: '0 50%',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
@@ -73,13 +73,11 @@ export default makeStyles((theme) => ({
     margin: '3% 0',
     [theme.breakpoints.down('sm')]: {
         height: '35vmin',
-        display: "block",
-        marginLeft: "auto",
-        marginRight: "auto"
+        position: "relative",
     },
     [theme.breakpoints.down('md')]: {
-        height: '35vmin',
-        padding: '0px 50px 0px 400px'
+        height: '30vmin',
+        position: "relative",
       },
   },
 }));

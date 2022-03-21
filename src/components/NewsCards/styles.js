@@ -11,8 +11,8 @@ export default makeStyles({
         flexDirection: "column",
         justifyContent: "space-between",
         alignItems: "center",
-        width: "100%",
-        height: "45vh",
+        width: "95%",
+        height: "55vh",
         padding: "10%",
         borderRadius: 10,
         color: "white"
