@@ -6,7 +6,7 @@ import useStyles from "./styles.js";
 import wordsToNumbers from "words-to-numbers";
 
 
-const alanKey="885f02492ea3495080da4e08d76f57b12e956eca572e1d8b807a3e2338fdd0dc/stage";
+const alanKey=process.env.REACT_APP_ALAN_KEY;
 
 const App = () => {
 
